@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+  	<meta name="description" content="Bootstrap">
+  	<meta name="keywords" content="HTML,Bootstrap">
+  	<meta name="author" content="Sashi Kumar Singh">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>FC Barcelona</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+  	<link rel="stylesheet" type="text/css" href="/home/shashi/Documents/workspace/Bootstrap/css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="body">
+	<nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top pb-2 pt-0">
+    	<div class="container nav-fill w-100">
+	        <a class="navbar-brand" href="#"><img src="../img/barca_logo.png" height="30px" width="30px"> FC BARCELONA</a>
+	        <ul class="navbar-nav mx-auto">
+	          	<li class="nav-item mx-5">
+                    <a class="nav-link" href="/home/shashi/Documents/workspace/Bootstrap/html/index.html">Home</a>
+                </li>
+                <li class="nav-item mx-5">
+                    <a class="nav-link" href="/home/shashi/Documents/workspace/Bootstrap/html/news.html">News</a>
+                </li>
+                <li class="nav-item mx-5">
+                    <a class="nav-link" href="/home/shashi/Documents/workspace/Bootstrap/html/players.html">Players</a>
+                </li>
+                <li class="nav-item mx-5">
+                    <a class="nav-link" href="/home/shashi/Documents/workspace/Bootstrap/html/gallery.html">Gallery</a>
+                </li>
+	        </ul>
+        </div>
+        <div class="btn-group">
+	        <button type="btn" class="btn btn-dark" data-toggle="modal" data-target="#myModal"><i class="fa fa-user pr-1" style="font-size:18px"></i>Sign In</button>
+            <div class="modal fade mt-5" id="myModal">
+                <div class="modal-dialog">
+                    <div class="modal-content bg-dark text-white">
+                        <div class="modal-header">
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" data-toggle="tab" href="#signin" style="color: #DC143C;">Sign In</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#signup" style="color: #DC143C;">Sign Up</a>
+                                </li>
+                            </ul>
+                            <button type="btn" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="tab-content">
+                                <div class="container tab-pane active" id="signin">
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1">Email address</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleInputPassword1">Password</label>
+                                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                        </div>
+                                        <button type="submit" class="btn btn-light">Submit</button>
+                                    </form>
+                                </div>
+                                <div class="container tab-pane" id="signup">
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1">Email address</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleInputPassword1">Password</label>
+                                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                        </div>
+                                        <button type="submit" class="btn btn-light">Submit</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="btn" class="btn btn-danger" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+	        <button type="btn" class="btn btn-dark dropdown-toggle dropdown-toggle-split mr-1 pl-1" data-toggle="dropdown"></button>
+	        <div class="dropdown-menu">
+	        	<a class="dropdown-item" href="#">Sign In</a>
+	        	<a class="dropdown-item" href="#">Sign Up</a> 		
+	      	</div>
+	    </div>
+    	<input type="text" name="search" placeholder="Search..."><i class="fa fa-search ml-1" style="font-size: 24px"></i>
+    </nav>
+    <nav class="navbar  navbar-expand-sm navbar-dark bg-dark fixed-bottom py-0">
+        <div class="container">
+            <ul class="navbar-nav mx-auto ">
+        	    <li class="nav-item mx-3">
+                    <a class="nav-link" href="#"><i class="fa fa-facebook-square" style="font-size:24px"></i></a>
+                </li>
+                <li class="nav-item mx-3">
+                    <a class="nav-link" href="#"><i class="fa fa-twitter-square" style="font-size:24px"></i></a>
+                </li>
+                <li class="nav-item mx-3">
+                    <a class="nav-link" href="#"><i class="fa fa-instagram" style="font-size:24px"></i></a>
+                </li>
+                <li class="nav-item mx-3">
+                    <a class="nav-link" href="#"><i class="fa fa-google-plus-square" style="font-size:24px"></i></a>
+                </li>
+                <li class="nav-item mx-3">
+                    <a class="nav-link" href="#"><i class="fa fa-youtube-play" style="font-size:24px"></i></a>
+                </li>
+                <li class="nav-item mx-3">
+                    <a class="nav-link" href="#"><i class="fa fa-share-alt" style="font-size:24px"></i></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+.body{
+  background-image: url("/home/shashi/Downloads/fc-barcelona-2560x1600-football-club-hd-3493.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size:cover;
+  font-family: 'Rubik', sans-serif;
+}
+
+.body h1{
+  color: white;
+  text-align: center;
+}
+
+nav .btn-group .dropdown-menu{
+	background-color: #333;
+}
+
+nav .btn-group .dropdown-menu .dropdown-item{
+	color: white;
+}
+
+nav .btn-group .dropdown-menu a:hover {
+	background-color: #DC143C;
+}
+
+nav input{
+  width: 70px;
+  box-sizing: border-box;
+  border: 2px solid #575757;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #eee;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 0 0 0 0;
+  transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+input:focus {
+  width: 20%;
+}
+
+.body .cont_news .card{
+  width: 45%;
+}
+
+.cont_news .card .card-img {
+  opacity: 0.25;
+}
+
+.cont_play h1 {
+  color: white;
+}

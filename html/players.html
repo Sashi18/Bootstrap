@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Bootstrap">
+    <meta name="keywords" content="HTML,Bootstrap">
+    <meta name="author" content="Sashi Kumar Singh">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FC Barcelona</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/home/shashi/Documents/workspace/Bootstrap/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="body">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top pb-2 pt-0">
+        <div class="container nav-fill w-100">
+            <a class="navbar-brand" href="#"><img src="../img/barca_logo.png" height="30px" width="30px"> FC BARCELONA</a>
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item mx-5">
+                    <a class="nav-link" href="/home/shashi/Documents/workspace/Bootstrap/html/index.html">Home</a>
+                </li>
+                <li class="nav-item mx-5">
+                    <a class="nav-link" href="/home/shashi/Documents/workspace/Bootstrap/html/news.html">News</a>
+                </li>
+                <li class="nav-item mx-5">
+                    <a class="nav-link" href="/home/shashi/Documents/workspace/Bootstrap/html/players.html">Players</a>
+                </li>
+                <li class="nav-item mx-5">
+                    <a class="nav-link" href="/home/shashi/Documents/workspace/Bootstrap/html/gallery.html">Gallery</a>
+                </li>
+            </ul>
+        </div>
+        <div class="btn-group">
+            <button type="btn" class="btn btn-dark" data-toggle="modal" data-target="#myModal"><i class="fa fa-user pr-1" style="font-size:18px"></i>Sign In</button>
+            <div class="modal fade mt-5" id="myModal">
+                <div class="modal-dialog">
+                    <div class="modal-content bg-dark text-white">
+                        <div class="modal-header">
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" data-toggle="tab" href="#signin" style="color: #DC143C;">Sign In</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#signup" style="color: #DC143C;">Sign Up</a>
+                                </li>
+                            </ul>
+                            <button type="btn" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="tab-content">
+                                <div class="container tab-pane active" id="signin">
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1">Email address</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleInputPassword1">Password</label>
+                                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                        </div>
+                                        <button type="submit" class="btn btn-primary">Submit</button>
+                                    </form>
+                                </div>
+                                <div class="container tab-pane" id="signup">
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1">Email address</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleInputPassword1">Password</label>
+                                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                        </div>
+                                        <button type="submit" class="btn btn-primary">Submit</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="btn" class="btn btn-danger" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+	        <button type="btn" class="btn btn-dark dropdown-toggle dropdown-toggle-split mr-1 pl-1" data-toggle="dropdown"></button>
+	        <div class="dropdown-menu">
+	        	<a class="dropdown-item" href="#">Sign In</a>
+	        	<a class="dropdown-item" href="#">Sign Up</a> 		
+	      	</div>
+	    </div>
+    	<input type="text" name="search" placeholder="Search..."><i class="fa fa-search ml-1" style="font-size: 24px"></i>
+    </nav>
+    <div class="cont_play m-5">
+        <h1 class="mt-5 ml-5">Goalkeepers</h1>
+        <div class="row">
+            <div class="col-sm-3 m-auto">
+                <div class="card bg-dark my-1 text-white" style="width:100%; height: 100%;">
+                    <img class="card-img-top" src="../img/stegen.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title"><strong>1.</strong>Marc-Andre Ter-Stegen</h4>
+                        <p class="card-text">FC Barcelona</p>
+                        <p class="card-text"><small>Age: 26</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 m-auto">
+                <div class="card bg-dark my-1 text-white" style="width:100%; height: 100%">
+                    <img class="card-img-top" src="../img/cillessen.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title"><strong>13.</strong>Jasper Cillessen</h4>
+                        <p class="card-text">FC Barcelona</p>
+                        <p class="card-text"><small>Age: 29</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 m-auto">
+                <div class="card bg-dark my-1 text-white" style="width:100%; height: 100%">
+                    <img class="card-img-top" src="../img/ortola.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title"><strong>31.</strong>Adria Ortola</h4>
+                        <p class="card-text">FC Barcelona</p>
+                        <p class="card-text"><small>Age: 24</small></p>
+                    </div>
+                </div>
+            </div>
+        </div><hr size="5">
+        <h1 class="mt-2 ml-5">Defenders</h1>
+        <div class="row">
+            <div class="col-sm-3 m-auto">
+                <div class="card bg-dark my-1 text-white" style="width:100%; height: 100%;">
+                    <img class="card-img-top" src="../img/pique.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title"><strong>3.</strong>Gerard Pique</h4>
+                        <p class="card-text">FC Barcelona</p>
+                        <p class="card-text"><small>Age: 32</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 m-auto">
+                <div class="card bg-dark my-1 text-white" style="width:100%; height: 100%">
+                    <img class="card-img-top" src="../img/umtiti.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title"><strong>23.</strong>Samuel Umtiti</h4>
+                        <p class="card-text">FC Barcelona</p>
+                        <p class="card-text"><small>Age: 24</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 m-auto">
+                <div class="card bg-dark my-1 text-white" style="width:100%; height: 100%">
+                    <img class="card-img-top" src="../img/lenglet.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Clement Lenglet</h4>
+                        <p class="card-text">FC Barcelona</p>
+                        <p class="card-text"><small>Age: 23</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 m-auto">
+                <div class="card bg-dark my-1 text-white" style="width:100%; height: 100%">
+                    <img class="card-img-top" src="../img/mina.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title"><strong>24.</strong>Yerry Mina</h4>
+                        <p class="card-text">FC Barcelona</p>
+                        <p class="card-text"><small>Age: 23</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 m-auto">
+                <div class="card bg-dark my-1 text-white" style="width:100%; height: 100%">
+                    <img class="card-img-top" src="../img/marlon.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title"><strong>33.</strong>Marlon</h4>
+                        <p class="card-text">FC Barcelona</p>
+                        <p class="card-text"><small>Age: 22</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 m-auto">
+                <div class="card bg-dark my-1 text-white" style="width:100%; height: 100%">
+                    <img class="card-img-top" src="../img/verm.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title"><strong>25.</strong>Thomas Vermaelen</h4>
+                        <p class="card-text">FC Barcelona</p>
+                        <p class="card-text"><small>Age: 32</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 m-auto">
+                <div class="card bg-dark my-1 text-white" style="width:100%; height: 100%">
+                    <img class="card-img-top" src="../img/jordi.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title"><strong>18.</strong>Jordi Alba</h4>
+                        <p class="card-text">FC Barcelona</p>
+                        <p class="card-text"><small>Age: 29</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 m-auto">
+                <div class="card bg-dark my-1 text-white" style="width:100%; height: 100%">
+                    <img class="card-img-top" src="../img/digne.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title"><strong>19.</strong>Lucas Digne</h4>
+                        <p class="card-text">FC Barcelona</p>
+                        <p class="card-text"><small>Age: 25</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 m-auto">
+                <div class="card bg-dark my-1 text-white" style="width:100%; height: 100%">
+                    <img class="card-img-top" src="../img/roberto.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title"><strong>20.</strong>Sergi Roberto</h4>
+                        <p class="card-text">FC Barcelona</p>
+                        <p class="card-text"><small>Age: 26</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 m-auto">
+                <div class="card bg-dark my-1 text-white" style="width:100%; height: 100%">
+                    <img class="card-img-top" src="../img/semedo.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title"><strong>2.</strong>Nelson Semedo</h4>
+                        <p class="card-text">FC Barcelona</p>
+                        <p class="card-text"><small>Age: 24</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 m-auto">
+                <div class="card bg-dark my-1 text-white" style="width:100%; height: 100%">
+                    <img class="card-img-top" src="../img/douglas.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Douglas</h4>
+                        <p class="card-text">FC Barcelona</p>
+                        <p class="card-text"><small>Age: 27</small></p>
+                    </div>
+                </div>
+            </div>
+        </div><hr size="5">
+        <h1 class="mt-2 ml-5">Midfielders</h1>
+        <div class="row">
+            <div class="col-sm-3 m-auto">
+                <div class="card bg-dark my-1 text-white" style="width:100%; height: 100%;">
+                    <img class="card-img-top" src="../img/busquets.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title"><strong>5.</strong>Sergio Busquets</h4>
+                        <p class="card-text">FC Barcelona</p>
+                        <p class="card-text"><small>Age: 30</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 m-auto">
+                <div class="card bg-dark my-1 text-white" style="width:100%; height: 100%">
+                    <img class="card-img-top" src="../img/samper.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Sergi Samper</h4>
+                        <p class="card-text">FC Barcelona</p>
+                        <p class="card-text"><small>Age: 23</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 m-auto">
+                <div class="card bg-dark my-1 text-white" style="width:100%; height: 100%">
+                    <img class="card-img-top" src="../img/rakitic.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title"><strong>4.</strong>Ivan Rakitic</h4>
+                        <p class="card-text">FC Barcelona</p>
+                        <p class="card-text"><small>Age: 30</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 m-auto">
+                <div class="card bg-dark my-1 text-white" style="width:100%; height: 100%">
+                    <img class="card-img-top" src="../img/arthur.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Arthur Melo</h4>
+                        <p class="card-text">FC Barcelona</p>
+                        <p class="card-text"><small>Age: 21</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 m-auto">
+                <div class="card bg-dark my-1 text-white" style="width:100%; height: 100%">
+                    <img class="card-img-top" src="../img/rafinha.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title"><strong>12.</strong>Rafinha</h4>
+                        <p class="card-text">FC Barcelona</p>
+                        <p class="card-text"><small>Age: 25</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 m-auto">
+                <div class="card bg-dark my-1 text-white" style="width:100%; height: 100%">
+                    <img class="card-img-top" src="../img/denis.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title"><strong>6.</strong>Denis Suarez</h4>
+                        <p class="card-text">FC Barcelona</p>
+                        <p class="card-text"><small>Age: 24</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 m-auto">
+                <div class="card bg-dark my-1 text-white" style="width:100%; height: 100%">
+                    <img class="card-img-top" src="../img/gomes.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title"><strong>21.</strong>Andre Gomes</h4>
+                        <p class="card-text">FC Barcelona</p>
+                        <p class="card-text"><small>Age: 24</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 m-auto">
+                <div class="card bg-dark my-1 text-white" style="width:100%; height: 100%">
+                    <img class="card-img-top" src="../img/alena.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title"><strong>26.</strong>Carles Alena</h4>
+                        <p class="card-text">FC Barcelona</p>
+                        <p class="card-text"><small>Age: 20</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 m-auto">
+                <div class="card bg-dark my-1 text-white" style="width:100%; height: 100%">
+                    <img class="card-img-top" src="../img/coutinho.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title"><strong>14.</strong>Philippe Coutinho</h4>
+                        <p class="card-text">FC Barcelona</p>
+                        <p class="card-text"><small>Age: 26</small></p>
+                    </div>
+                </div>
+            </div>
+        </div><hr size="5">
+        <h1 class="mt-2 ml-5">Forwards</h1>
+        <div class="row">
+            <div class="col-sm-3 m-auto">
+                <div class="card bg-dark my-1 text-white" style="width:100%; height: 100%">
+                    <img class="card-img-top" src="../img/dembele.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title"><strong>11.</strong>Ousmane Dembele</h4>
+                        <p class="card-text">FC Barcelona</p>
+                        <p class="card-text"><small>Age: 21</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 m-auto">
+                <div class="card bg-dark my-1 text-white" style="width:100%; height: 100%">
+                    <img class="card-img-top" src="../img/vidal.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title"><strong>22.</strong>Aliex Vidal</h4>
+                        <p class="card-text">FC Barcelona</p>
+                        <p class="card-text"><small>Age: 28</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 m-auto">
+                <div class="card bg-dark my-1 text-white" style="width:100%; height: 100%">
+                    <img class="card-img-top" src="../img/messi.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title"><strong>10.</strong>Lionel Messi</h4>
+                        <p class="card-text">FC Barcelona</p>
+                        <p class="card-text"><small>Age: 31</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 m-auto">
+                <div class="card bg-dark my-1 text-white" style="width:100%; height: 100%">
+                    <img class="card-img-top" src="../img/suarez.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title"><strong>9.</strong>Luis Suarez</h4>
+                        <p class="card-text">FC Barcelona</p>
+                        <p class="card-text"><small>Age: 31</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 m-auto">
+                <div class="card bg-dark my-1 text-white" style="width:100%; height: 100%">
+                    <img class="card-img-top" src="../img/paco.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title"><strong>17.</strong>Paco Alcacer</h4>
+                        <p class="card-text">FC Barcelona</p>
+                        <p class="card-text"><small>Age: 24</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 m-auto">
+                <div class="card bg-dark my-1 text-white" style="width:100%; height: 100%">
+                    <img class="card-img-top" src="../img/munir.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Munir El Haddadi</h4>
+                        <p class="card-text">FC Barcelona</p>
+                        <p class="card-text"><small>Age: 22</small></p>
+                    </div>
+                </div>
+            </div>
+        </div><hr size="5">
+        <h1 class="mt-2 ml-5">Head Coach</h1>
+        <div class="row">
+            <div class="col-sm-3 m-auto">
+                <div class="card bg-dark my-1 text-white" style="width:100%; height: 100%">
+                    <img class="card-img-top" src="../img/velverde.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Ernesto Velverde</h4>
+                        <p class="card-text">FC Barcelona</p>
+                        <p class="card-text"><small>Age: 54</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar  navbar-expand-sm navbar-dark bg-dark fixed-bottom py-0">
+        <div class="container">
+            <ul class="navbar-nav mx-auto ">
+        	    <li class="nav-item mx-3">
+                    <a class="nav-link" href="#"><i class="fa fa-facebook-square" style="font-size:24px"></i></a>
+                </li>
+                <li class="nav-item mx-3">
+                    <a class="nav-link" href="#"><i class="fa fa-twitter-square" style="font-size:24px"></i></a>
+                </li>
+                <li class="nav-item mx-3">
+                    <a class="nav-link" href="#"><i class="fa fa-instagram" style="font-size:24px"></i></a>
+                </li>
+                <li class="nav-item mx-3">
+                    <a class="nav-link" href="#"><i class="fa fa-google-plus-square" style="font-size:24px"></i></a>
+                </li>
+                <li class="nav-item mx-3">
+                    <a class="nav-link" href="#"><i class="fa fa-youtube-play" style="font-size:24px"></i></a>
+                </li>
+                <li class="nav-item mx-3">
+                    <a class="nav-link" href="#"><i class="fa fa-share-alt" style="font-size:24px"></i></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</body>
+</html>
