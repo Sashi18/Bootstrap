@@ -7,11 +7,12 @@
     <meta name="author" content="Sashi Kumar Singh">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FC Barcelona</title>
+    <link href="../img/favicon.ico" rel="icon" type="image/x-icon" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/style-minify.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -21,7 +22,7 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <section class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav mx-auto">
                 <li class="nav-item mx-5">
                     <a class="nav-link" href="index.html">Home</a>
@@ -36,13 +37,13 @@
                     <a class="nav-link" href="gallery.html">Gallery</a>
                 </li>
             </ul>
-        </div>
-        <div class="btn-group">
+        </section>
+        <section class="btn-group">
             <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#myModal"><i class="fa fa-user pr-1" style="font-size:18px"></i>Sign In</button>
-            <div class="modal fade mt-5" id="myModal">
-                <div class="modal-dialog">
-                    <div class="modal-content bg-dark text-white">
-                        <div class="modal-header">
+            <section class="modal fade mt-5" id="myModal">
+                <section class="modal-dialog">
+                    <section class="modal-content bg-dark text-white">
+                        <section class="modal-header">
                             <ul class="nav nav-tabs" role="tablist">
                                 <li class="nav-item">
                                     <a class="nav-link active" data-toggle="tab" href="#signin" style="color: #DC143C;">Sign In</a>
@@ -52,98 +53,98 @@
                                 </li>
                             </ul>
                             <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        </div>
-                        <div class="modal-body">
-                            <div class="tab-content">
-                                <div class="container tab-pane active" id="signin">
+                        </section>
+                        <section class="modal-body">
+                            <section class="tab-content">
+                                <section class="container tab-pane active" id="signin">
                                     <form>
-                                        <div class="form-group">
+                                        <section class="form-group">
                                             <label for="exampleInputEmail1">Email address</label>
                                             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
                                             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                                        </div>
-                                        <div class="form-group">
+                                        </section>
+                                        <section class="form-group">
                                             <label for="exampleInputPassword1">Password</label>
                                             <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                                        </div>
+                                        </section>
                                         <button type="submit" class="btn btn-primary">Submit</button>
                                     </form>
-                                </div>
-                                <div class="container tab-pane" id="signup">
+                                </section>
+                                <section class="container tab-pane" id="signup">
                                     <form>
-                                        <div class="form-group">
+                                        <section class="form-group">
                                             <label for="exampleInputEmail2">Email address</label>
                                             <input type="email" class="form-control" id="exampleInputEmail2" aria-describedby="emailHelp1" placeholder="Enter email">
                                             <small id="emailHelp1" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                                        </div>
-                                        <div class="form-group">
+                                        </section>
+                                        <section class="form-group">
                                             <label for="exampleInputPassword2">Password</label>
                                             <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password">
-                                        </div>
+                                        </section>
                                         <button type="submit" class="btn btn-primary">Submit</button>
                                     </form>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="modal-footer">
+                                </section>
+                            </section>
+                        </section>
+                        <section class="modal-footer">
                           <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                        </section>
+                    </section>
+                </section>
+            </section>
             <button type="button" class="btn btn-dark dropdown-toggle dropdown-toggle-split mr-1 pl-1" data-toggle="dropdown"></button>
-            <div class="dropdown-menu">
+            <section class="dropdown-menu">
                 <a class="dropdown-item" href="#">Sign In</a>
                 <a class="dropdown-item" href="#">Sign Up</a>       
-            </div>
-        </div>
+            </section>
+        </section>
         <input type="text" name="search" placeholder="Search..."><i class="fa fa-search ml-1" style="font-size: 24px"></i>
     </nav>
-    <div class="cont_news">
+    <section class="cont_news">
         <h1 class="jumbotron jumbotron-fluid text-dark p-0 mt-5 mb-0">Latest News</h1><hr class="mt-0">
-        <div class="card bg-dark border-dark text-white mx-5 mt-1 float-left">
+        <section class="card bg-dark border-dark text-white mx-5 mt-1 float-left">
             <img class="card-img" alt="Samuel Umtiti" src="../img/sam.jpg" style="width: 100%; height: 300px">
-            <div class="card-img-overlay">
+            <section class="card-img-overlay">
                 <h4 class="card-title">Congratulations Umtiti</h4>
                 <p class="card-text">FC Barcelona board congratulates Samuel Umtiti and the whole France squad on their achievement. Enjoy to the best, you guys deserve this.</p>
                 <p class="card-text card-text-sm"><small class="text-white">Last updated 3 mins ago</small></p>
-            </div>
-        </div>
-        <div class="card bg-dark border-dark text-white mt-1 mr-5 float-right">
+            </section>
+        </section>
+        <section class="card bg-dark border-dark text-white mt-1 mr-5 float-right">
             <img class="card-img" alt="Ousmane Dembele" src="../img/demb.jpg" style="width: 100%; height: 300px">
-            <div class="card-img-overlay">
+            <section class="card-img-overlay">
                 <h4 class="card-title">Congratulations Ousmane</h4>
                 <p class="card-text">
                 <p class="card-text">FC Barcelona board congratulates Ousmane Dembele and the whole France squad on their achievement. Enjoy to the best, you guys deserve this.</p>
                 <p class="card-text card-text-sm"><small class="text-white">Last updated 3 mins ago</small></p>
-            </div>
-        </div>
-        <div class="card bg-dark border-dark text-white mx-5 mt-2 float-left">
+            </section>
+        </section>
+        <section class="card bg-dark border-dark text-white mx-5 mt-2 float-left">
             <img class="card-img" alt="Clement Lenglet" src="../img/leng.jpg" style="width: 100%; height: 300px">
-            <div class="card-img-overlay">
+            <section class="card-img-overlay">
                 <h4 class="card-title">Benvindo Lenglet</h4>
                 <p class="card-text">FC Barcelona board welcomes the prodigical Clement Lenglet. All the very best for his future, hope you bring success to your club and carreer parallely.</p>
                 <p class="card-text card-text-sm"><small class="text-white">Last updated 3 mins ago</small></p>
-            </div>
-        </div>
-        <div class="card bg-dark border-dark text-white my-2 mr-5 float-right">
+            </section>
+        </section>
+        <section class="card bg-dark border-dark text-white my-2 mr-5 float-right">
             <img class="card-img" alt="Arthur Melo" src="../img/arth.jpg" style="width: 100%; height: 300px">
-            <div class="card-img-overlay">
+            <section class="card-img-overlay">
                 <h4 class="card-title">Benvindo Arthur</h4>
                 <p class="card-text">FC Barcelona board welcomes the prodigical Arthur Melo. All the very best for his future, hope you bring success to your club and carreer parallely.</p>
                 <p class="card-text card-text-sm"><small class="text-white">Last updated 3 mins ago</small></p>
-            </div>
-        </div>
-        <div class="cont_map mx-5">
+            </section>
+        </section>
+        <section class="cont_map mx-5">
            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993.7012881063433!2d2.118692993288118!3d41.380574213520994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a498f43e3a7af1%3A0x6bfd5dfe4d49e72f!2sMuseo+del+F%C3%BAtbol+Club+Barcelona!5e0!3m2!1sen!2sin!4v1532077162960" width="1420" height="500" style="border:0" allowfullscreen>
            </iframe>
-        </div>
-    </div>
+        </section>
+    </section>
     <footer class="navbar  navbar-expand-sm navbar-dark bg-dark fixed-bottom py-0">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar1">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavbar1">
+        <section class="collapse navbar-collapse" id="collapsibleNavbar1">
             <ul class="navbar-nav mx-auto ">
                 <li class="nav-item mx-3">
                     <a class="nav-link" href="https://www.facebook.com/fcbarcelona/" target="_blank"><i class="fa fa-facebook-square" style="font-size:24px"></i></a>
@@ -164,7 +165,7 @@
                     <a class="nav-link" href="#"><i class="fa fa-share-alt" style="font-size:24px"></i></a>
                 </li>
             </ul>
-        </div>
+        </section>
     </footer>
 </body>
 </html>
